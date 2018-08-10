@@ -1,0 +1,19 @@
+{
+  "name": "deCoi",
+  "version": "1.0.0",
+  "description": "This is a blockchain application.",
+  "main": "index.js",
+  "scripts": {
+    "dev-test": "nodemon dev-test"
+  },
+  "keywords": [],
+  "author": "Joy Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
