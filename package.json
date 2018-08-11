@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "This is a blockchain application.",
   "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "scripts": {
+    "test": "jest --watchAll",
     "dev-test": "nodemon dev-test"
   },
   "keywords": [],
