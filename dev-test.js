@@ -1,4 +1,4 @@
-const Block = require('./block');
+const Block = require('./blockchain/block');
 const block2 = new Block();
 const block1 = new Block('foo', 'bar', 'zoo', 'baz');
 //console.log(block1.toString());
